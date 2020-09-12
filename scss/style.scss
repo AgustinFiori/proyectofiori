@@ -45,6 +45,11 @@
     width: 80%;
   }
 
+  .index__imagenes {
+    height: 40vw;
+    width: 35vw;
+  }
+
   .body__hijo1 {
     text-align: center;
   }
@@ -101,7 +106,9 @@
 
   .body__form {
     color: white;
-    text-align: center;
+    text-align: left;
+    margin-left: 20vw;
+    margin-top: 30px;
   }
 
   .body__desc {
@@ -156,7 +163,7 @@
     @extend .header__linea;
     transform: rotate(180deg);
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   *,
